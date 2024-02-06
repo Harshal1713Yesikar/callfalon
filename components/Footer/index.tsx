@@ -32,24 +32,23 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-light.svg"
+                    src="/logo.jpg"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-dark.svg"
+                    src="/logo.jpg"
                     alt="Logo"
                     className="hidden dark:block"
                   />
                 </a>
 
-                <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
+                <p className="mb-10 mt-5 text-[22px] font-[600] text-black">
+                Falon Sourcing Solutions LLC                </p>
 
-                <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
+                {/* <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
                   contact
                 </p>
                 <a
@@ -57,10 +56,10 @@ const Footer = () => {
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
                   hello@solid.com
-                </a>
+                </a> */}
               </motion.div>
 
-              <div className="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-2/3 xl:w-7/12">
+              <div className="flex w-full flex-col gap-12 md:flex-row lg:justify-end  justify-start lg:w-2/3 xl:w-7/12 ">
                 <motion.div
                   variants={{
                     hidden: {
@@ -86,40 +85,40 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
+                        href="/"
+                        className="mb-3 inline-block hover:text-[#4d7d38]"
                       >
                         Home
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
+                        href="/ourServices"
+                        className="mb-3 inline-block hover:text-[#4d7d38]"
                       >
-                        Product
+                         Our services
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
+                        href="/about"
+                        className="mb-3 inline-block hover:text-[#4d7d38]"
                       >
-                        Careers
+                        about
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
+                        href="/contact"
+                        className="mb-3 inline-block hover:text-[#4d7d38]"
                       >
-                        Pricing
+                        contact
                       </a>
                     </li>
                   </ul>
                 </motion.div>
 
-                <motion.div
+                {/* <motion.div
                   variants={{
                     hidden: {
                       opacity: 0,
@@ -175,7 +174,7 @@ const Footer = () => {
                       </a>
                     </li>
                   </ul>
-                </motion.div>
+                </motion.div> */}
 
                 <motion.div
                   variants={{
@@ -244,7 +243,7 @@ const Footer = () => {
           {/* <!-- Footer Top --> */}
 
           {/* <!-- Footer Bottom --> */}
-          <div className="flex flex-col flex-wrap items-center justify-center gap-5 border-t border-stroke py-7 dark:border-strokedark lg:flex-row lg:justify-between lg:gap-0">
+          {/* <div className="flex flex-col flex-wrap items-center justify-center gap-5 border-t border-stroke py-7 dark:border-strokedark lg:flex-row lg:justify-between lg:gap-0">
             <motion.div
               variants={{
                 hidden: {
@@ -418,7 +417,7 @@ const Footer = () => {
                 </li>
               </ul>
             </motion.div>
-          </div>
+          </div> */}
           {/* <!-- Footer Bottom --> */}
         </div>
       </footer>
